@@ -7,5 +7,7 @@ int main() {
 
 	std::cout << "Choose your starter Pokemon: Bulbasaur, Charmander, or Squirtle." << std::endl;
 //comment added
+
+//this is our checkpoint commit comment
 }
 
