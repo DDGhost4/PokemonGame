@@ -1,5 +1,4 @@
 #include <iostream>
-#pragma once 
 #include "Encounter.h"
 
 int main() {
