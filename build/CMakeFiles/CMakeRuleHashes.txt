@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+bf2db50dae6778b061fab849d12b2161 CMakeFiles/PokemonGame_autogen
+7fda3fbf8214f60f9491d4c512e019bf PokemonGame_autogen/timestamp

@@ -1,0 +1,5 @@
+/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/PokemonGame.dir
+/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/edit_cache.dir
+/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/rebuild_cache.dir
+/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/PokemonGame_autogen_timestamp_deps.dir
+/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/PokemonGame_autogen.dir
