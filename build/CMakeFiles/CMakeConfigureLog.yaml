@@ -24,7 +24,6 @@ events:
       - "/Users/ericksens/Qt/6.12.0/macos/sbin/"
       - "/Users/ericksens/Qt/6.12.0/macos/"
       - "/Applications/CMake.app/Contents/bin/"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -40,14 +39,11 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/ericksens/.dotnet/tools/"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/"
     searched_directories:
       - "/Users/ericksens/Qt/6.12.0/macos/bin/uname"
       - "/Users/ericksens/Qt/6.12.0/macos/sbin/uname"
       - "/Users/ericksens/Qt/6.12.0/macos/uname"
       - "/Applications/CMake.app/Contents/bin/uname"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/uname"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/uname"
       - "/usr/local/bin/uname"
       - "/System/Cryptexes/App/usr/bin/uname"
@@ -57,7 +53,6 @@ events:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -73,10 +68,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
   -
     kind: "message-v1"
     backtrace:
@@ -109,7 +100,6 @@ events:
       - "/Users/ericksens/Qt/6.12.0/macos/sbin/"
       - "/Users/ericksens/Qt/6.12.0/macos/"
       - "/Applications/CMake.app/Contents/bin/"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -125,14 +115,11 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/ericksens/.dotnet/tools/"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/"
     searched_directories:
       - "/Users/ericksens/Qt/6.12.0/macos/bin/gmake"
       - "/Users/ericksens/Qt/6.12.0/macos/sbin/gmake"
       - "/Users/ericksens/Qt/6.12.0/macos/gmake"
       - "/Applications/CMake.app/Contents/bin/gmake"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/gmake"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/gmake"
       - "/usr/local/bin/gmake"
       - "/System/Cryptexes/App/usr/bin/gmake"
@@ -148,13 +135,10 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/gmake"
       - "/usr/local/share/dotnet/gmake"
       - "/Users/ericksens/.dotnet/tools/gmake"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/gmake"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/gmake"
       - "/Users/ericksens/Qt/6.12.0/macos/bin/make"
       - "/Users/ericksens/Qt/6.12.0/macos/sbin/make"
       - "/Users/ericksens/Qt/6.12.0/macos/make"
       - "/Applications/CMake.app/Contents/bin/make"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/make"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/make"
       - "/usr/local/bin/make"
       - "/System/Cryptexes/App/usr/bin/make"
@@ -164,7 +148,6 @@ events:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -180,10 +163,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -215,7 +194,6 @@ events:
       - "/Users/ericksens/Qt/6.12.0/macos/sbin/"
       - "/Users/ericksens/Qt/6.12.0/macos/"
       - "/Applications/CMake.app/Contents/bin/"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -231,14 +209,11 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/ericksens/.dotnet/tools/"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/"
     searched_directories:
       - "/Users/ericksens/Qt/6.12.0/macos/bin/c++"
       - "/Users/ericksens/Qt/6.12.0/macos/sbin/c++"
       - "/Users/ericksens/Qt/6.12.0/macos/c++"
       - "/Applications/CMake.app/Contents/bin/c++"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/c++"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/c++"
       - "/usr/local/bin/c++"
       - "/System/Cryptexes/App/usr/bin/c++"
@@ -248,7 +223,6 @@ events:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -264,10 +238,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -298,7 +268,6 @@ events:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -314,10 +283,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
   -
     kind: "message-v1"
     backtrace:
@@ -403,7 +368,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Applications/CMake.app/Contents/bin/"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -418,15 +382,12 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/ericksens/.dotnet/tools/"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/"
     found: "/usr/bin/ar"
     search_context:
       CMAKE_PREFIX_PATH:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -442,10 +403,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -468,7 +425,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Applications/CMake.app/Contents/bin/"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -483,15 +439,12 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/ericksens/.dotnet/tools/"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/"
     found: "/usr/bin/ranlib"
     search_context:
       CMAKE_PREFIX_PATH:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -507,10 +460,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -533,7 +482,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Applications/CMake.app/Contents/bin/"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -548,15 +496,12 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/ericksens/.dotnet/tools/"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/"
     found: "/usr/bin/strip"
     search_context:
       CMAKE_PREFIX_PATH:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -572,10 +517,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -598,7 +539,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Applications/CMake.app/Contents/bin/"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -613,15 +553,12 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/ericksens/.dotnet/tools/"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/"
     found: "/usr/bin/ld"
     search_context:
       CMAKE_PREFIX_PATH:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -637,10 +574,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -663,7 +596,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Applications/CMake.app/Contents/bin/"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -678,15 +610,12 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/ericksens/.dotnet/tools/"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/"
     found: "/usr/bin/nm"
     search_context:
       CMAKE_PREFIX_PATH:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -702,10 +631,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -728,7 +653,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Applications/CMake.app/Contents/bin/"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -743,15 +667,12 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/ericksens/.dotnet/tools/"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/"
     found: "/usr/bin/objdump"
     search_context:
       CMAKE_PREFIX_PATH:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -767,10 +688,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -793,7 +710,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Applications/CMake.app/Contents/bin/"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -808,12 +724,9 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/ericksens/.dotnet/tools/"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/"
     searched_directories:
       - "/usr/bin/objcopy"
       - "/Applications/CMake.app/Contents/bin/objcopy"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/objcopy"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/objcopy"
       - "/usr/local/bin/objcopy"
       - "/System/Cryptexes/App/usr/bin/objcopy"
@@ -828,15 +741,12 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/objcopy"
       - "/usr/local/share/dotnet/objcopy"
       - "/Users/ericksens/.dotnet/tools/objcopy"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/objcopy"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/objcopy"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -852,10 +762,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -878,7 +784,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Applications/CMake.app/Contents/bin/"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -893,12 +798,9 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/ericksens/.dotnet/tools/"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/"
     searched_directories:
       - "/usr/bin/readelf"
       - "/Applications/CMake.app/Contents/bin/readelf"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/readelf"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/readelf"
       - "/usr/local/bin/readelf"
       - "/System/Cryptexes/App/usr/bin/readelf"
@@ -913,15 +815,12 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/readelf"
       - "/usr/local/share/dotnet/readelf"
       - "/Users/ericksens/.dotnet/tools/readelf"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/readelf"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/readelf"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -937,10 +836,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -963,7 +858,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Applications/CMake.app/Contents/bin/"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -978,12 +872,9 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/ericksens/.dotnet/tools/"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/"
     searched_directories:
       - "/usr/bin/dlltool"
       - "/Applications/CMake.app/Contents/bin/dlltool"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/dlltool"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/dlltool"
       - "/usr/local/bin/dlltool"
       - "/System/Cryptexes/App/usr/bin/dlltool"
@@ -998,15 +889,12 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/dlltool"
       - "/usr/local/share/dotnet/dlltool"
       - "/Users/ericksens/.dotnet/tools/dlltool"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/dlltool"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -1022,10 +910,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -1048,7 +932,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Applications/CMake.app/Contents/bin/"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -1063,12 +946,9 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/ericksens/.dotnet/tools/"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/"
     searched_directories:
       - "/usr/bin/addr2line"
       - "/Applications/CMake.app/Contents/bin/addr2line"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/addr2line"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/addr2line"
       - "/usr/local/bin/addr2line"
       - "/System/Cryptexes/App/usr/bin/addr2line"
@@ -1083,15 +963,12 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/addr2line"
       - "/usr/local/share/dotnet/addr2line"
       - "/Users/ericksens/.dotnet/tools/addr2line"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/addr2line"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/addr2line"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -1107,10 +984,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -1133,7 +1006,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Applications/CMake.app/Contents/bin/"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -1148,12 +1020,9 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/ericksens/.dotnet/tools/"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/"
     searched_directories:
       - "/usr/bin/tapi"
       - "/Applications/CMake.app/Contents/bin/tapi"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/tapi"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/tapi"
       - "/usr/local/bin/tapi"
       - "/System/Cryptexes/App/usr/bin/tapi"
@@ -1168,15 +1037,12 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/tapi"
       - "/usr/local/share/dotnet/tapi"
       - "/Users/ericksens/.dotnet/tools/tapi"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/tapi"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -1192,10 +1058,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -1220,7 +1082,6 @@ events:
       - "/Users/ericksens/Qt/6.12.0/macos/sbin/"
       - "/Users/ericksens/Qt/6.12.0/macos/"
       - "/Applications/CMake.app/Contents/bin/"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -1236,14 +1097,11 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/ericksens/.dotnet/tools/"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/"
     searched_directories:
       - "/Users/ericksens/Qt/6.12.0/macos/bin/install_name_tool"
       - "/Users/ericksens/Qt/6.12.0/macos/sbin/install_name_tool"
       - "/Users/ericksens/Qt/6.12.0/macos/install_name_tool"
       - "/Applications/CMake.app/Contents/bin/install_name_tool"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/install_name_tool"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/install_name_tool"
       - "/usr/local/bin/install_name_tool"
       - "/System/Cryptexes/App/usr/bin/install_name_tool"
@@ -1253,7 +1111,6 @@ events:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -1269,10 +1126,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
   -
     kind: "try_compile-v1"
@@ -1283,8 +1136,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-nxDbI4"
-      binary: "/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-nxDbI4"
+      source: "/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-Bl6o7w"
+      binary: "/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-Bl6o7w"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1298,19 +1151,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: '/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-nxDbI4'
+        Change Dir: '/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-Bl6o7w'
         
-        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e018d/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e018d.dir/build.make CMakeFiles/cmTC_e018d.dir/build
-        Building CXX object CMakeFiles/cmTC_e018d.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_e018d.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e018d.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e018d.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-4.5/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_853cc/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_853cc.dir/build.make CMakeFiles/cmTC_853cc.dir/build
+        Building CXX object CMakeFiles/cmTC_853cc.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_853cc.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_853cc.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_853cc.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-4.5/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 17.0.0 (clang-1700.0.13.5)
         Target: arm64-apple-darwin25.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.5.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-nxDbI4 -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-nxDbI4 -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_e018d.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e018d.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e018d.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CMake.app/Contents/share/cmake-4.5/Modules/CMakeCXXCompilerABI.cpp
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.5.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-Bl6o7w -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-Bl6o7w -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_853cc.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_853cc.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_853cc.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CMake.app/Contents/share/cmake-4.5/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target arm64-apple-darwin25.6.0
         ignoring nonexistent directory "/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
@@ -1324,13 +1177,13 @@ events:
          /Library/Developer/CommandLineTools/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_e018d
-        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e018d.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_853cc
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_853cc.dir/link.txt --verbose=1
         Apple clang version 17.0.0 (clang-1700.0.13.5)
         Target: arm64-apple-darwin25.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.5.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_e018d -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e018d.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.5.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_853cc -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_853cc.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1167.5
         BUILD 01:45:05 Apr 30 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -1342,7 +1195,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_e018d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e018d
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_853cc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_853cc
         
       exitCode: 0
   -
@@ -1386,19 +1239,19 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)(\\.exe)?"?( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-nxDbI4']
+        ignore line: [Change Dir: '/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-Bl6o7w']
         ignore line: []
-        ignore line: [Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e018d/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e018d.dir/build.make CMakeFiles/cmTC_e018d.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_e018d.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_e018d.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e018d.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e018d.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-4.5/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_853cc/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_853cc.dir/build.make CMakeFiles/cmTC_853cc.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_853cc.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_853cc.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_853cc.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_853cc.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-4.5/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.5)]
         ignore line: [Target: arm64-apple-darwin25.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.5.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-nxDbI4 -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-nxDbI4 -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_e018d.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e018d.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e018d.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CMake.app/Contents/share/cmake-4.5/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.5.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-Bl6o7w -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-Bl6o7w -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_853cc.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_853cc.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_853cc.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CMake.app/Contents/share/cmake-4.5/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target arm64-apple-darwin25.6.0]
         ignore line: [ignoring nonexistent directory "/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
@@ -1412,14 +1265,14 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_e018d]
-        ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e018d.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_853cc]
+        ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_853cc.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.5)]
         ignore line: [Target: arm64-apple-darwin25.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.5.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_e018d -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e018d.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> linker [/Library/Developer/CommandLineTools/usr/bin/ld]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.5.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_e018d -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e018d.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.5.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_853cc -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_853cc.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> linker [/Library/Developer/CommandLineTools/usr/bin/ld]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.5.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_853cc -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_853cc.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1436,12 +1289,12 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore, skip following value
-          arg [cmTC_e018d] ==> skip value of -o
+          arg [cmTC_853cc] ==> skip value of -o
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_e018d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_853cc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
@@ -1491,8 +1344,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-x72G1h"
-      binary: "/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-x72G1h"
+      source: "/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-eCYWNu"
+      binary: "/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-eCYWNu"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1506,15 +1359,15 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-x72G1h'
+        Change Dir: '/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-eCYWNu'
         
-        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_98d41/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_98d41.dir/build.make CMakeFiles/cmTC_98d41.dir/build
-        Building CXX object CMakeFiles/cmTC_98d41.dir/src.cxx.o
-        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_98d41.dir/src.cxx.o -MF CMakeFiles/cmTC_98d41.dir/src.cxx.o.d -o CMakeFiles/cmTC_98d41.dir/src.cxx.o -c /Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-x72G1h/src.cxx
-        Linking CXX executable cmTC_98d41
-        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98d41.dir/link.txt --verbose=1
-        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_98d41.dir/src.cxx.o -o cmTC_98d41
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4a0fd/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4a0fd.dir/build.make CMakeFiles/cmTC_4a0fd.dir/build
+        Building CXX object CMakeFiles/cmTC_4a0fd.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_4a0fd.dir/src.cxx.o -MF CMakeFiles/cmTC_4a0fd.dir/src.cxx.o.d -o CMakeFiles/cmTC_4a0fd.dir/src.cxx.o -c /Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-eCYWNu/src.cxx
+        Linking CXX executable cmTC_4a0fd
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a0fd.dir/link.txt --verbose=1
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4a0fd.dir/src.cxx.o -o cmTC_4a0fd
         
       exitCode: 0
   -
@@ -1643,7 +1496,6 @@ events:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -1659,10 +1511,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -1813,7 +1661,6 @@ events:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -1829,10 +1676,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -1980,7 +1823,6 @@ events:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -1996,10 +1838,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2045,8 +1883,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-BDn2Kg"
-      binary: "/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-BDn2Kg"
+      source: "/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-YXl8gO"
+      binary: "/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-YXl8gO"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2060,15 +1898,15 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: '/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-BDn2Kg'
+        Change Dir: '/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-YXl8gO'
         
-        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_aa975/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_aa975.dir/build.make CMakeFiles/cmTC_aa975.dir/build
-        Building CXX object CMakeFiles/cmTC_aa975.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_STDATOMIC  -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_aa975.dir/src.cxx.o -MF CMakeFiles/cmTC_aa975.dir/src.cxx.o.d -o CMakeFiles/cmTC_aa975.dir/src.cxx.o -c /Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-BDn2Kg/src.cxx
-        Linking CXX executable cmTC_aa975
-        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa975.dir/link.txt --verbose=1
-        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_aa975.dir/src.cxx.o -o cmTC_aa975
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1c92a/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1c92a.dir/build.make CMakeFiles/cmTC_1c92a.dir/build
+        Building CXX object CMakeFiles/cmTC_1c92a.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_STDATOMIC  -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_1c92a.dir/src.cxx.o -MF CMakeFiles/cmTC_1c92a.dir/src.cxx.o.d -o CMakeFiles/cmTC_1c92a.dir/src.cxx.o -c /Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/CMakeScratch/TryCompile-YXl8gO/src.cxx
+        Linking CXX executable cmTC_1c92a
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c92a.dir/link.txt --verbose=1
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1c92a.dir/src.cxx.o -o cmTC_1c92a
         
       exitCode: 0
   -
@@ -2103,7 +1941,6 @@ events:
       - "/Users/ericksens/Qt/6.12.0/macos/"
       - "/Users/ericksens/Qt/6.12.0/macos/bin/"
       - "/Applications/CMake.app/Contents/bin/"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -2119,8 +1956,6 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/ericksens/.dotnet/tools/"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/bin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/sbin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
@@ -2161,7 +1996,6 @@ events:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -2177,10 +2011,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2315,7 +2145,6 @@ events:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -2331,10 +2160,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2394,7 +2219,6 @@ events:
       - "/Users/ericksens/Qt/6.12.0/macos/lib/"
       - "/Users/ericksens/Qt/6.12.0/macos/"
       - "/Applications/CMake.app/Contents/bin/"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -2405,8 +2229,6 @@ events:
       - "/Users/ericksens/Library/TinyTeX/bin/universal-darwin/"
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/usr/local/"
@@ -2424,7 +2246,6 @@ events:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -2440,10 +2261,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2505,7 +2322,6 @@ events:
       - "/Users/ericksens/Qt/6.12.0/macos/lib/"
       - "/Users/ericksens/Qt/6.12.0/macos/"
       - "/Applications/CMake.app/Contents/bin/"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -2516,8 +2332,6 @@ events:
       - "/Users/ericksens/Library/TinyTeX/bin/universal-darwin/"
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/usr/local/"
@@ -2535,7 +2349,6 @@ events:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -2551,10 +2364,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2616,7 +2425,6 @@ events:
       - "/Users/ericksens/Qt/6.12.0/macos/include/"
       - "/Users/ericksens/Qt/6.12.0/macos/"
       - "/Applications/CMake.app/Contents/bin/"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -2632,8 +2440,6 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/ericksens/.dotnet/tools/"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/opt/homebrew/include/"
@@ -2668,7 +2474,6 @@ events:
       - "/Users/ericksens/Qt/6.12.0/macos/include/OpenGL.framework/Headers/gl.h"
       - "/Users/ericksens/Qt/6.12.0/macos/OpenGL.framework/Headers/gl.h"
       - "/Applications/CMake.app/Contents/bin/OpenGL.framework/Headers/gl.h"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/OpenGL.framework/Headers/gl.h"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/OpenGL.framework/Headers/gl.h"
       - "/usr/local/bin/OpenGL.framework/Headers/gl.h"
       - "/System/Cryptexes/App/usr/bin/OpenGL.framework/Headers/gl.h"
@@ -2684,8 +2489,6 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/OpenGL.framework/Headers/gl.h"
       - "/usr/local/share/dotnet/OpenGL.framework/Headers/gl.h"
       - "/Users/ericksens/.dotnet/tools/OpenGL.framework/Headers/gl.h"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/OpenGL.framework/Headers/gl.h"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/OpenGL.framework/Headers/gl.h"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/OpenGL.framework/Headers/gl.h"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/OpenGL.framework/Headers/gl.h"
       - "/opt/homebrew/include/OpenGL.framework/Headers/gl.h"
@@ -2717,7 +2520,6 @@ events:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -2733,10 +2535,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2798,7 +2596,6 @@ events:
       - "/Users/ericksens/Qt/6.12.0/macos/include/"
       - "/Users/ericksens/Qt/6.12.0/macos/"
       - "/Applications/CMake.app/Contents/bin/"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -2814,8 +2611,6 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/ericksens/.dotnet/tools/"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/opt/homebrew/include/"
@@ -2850,7 +2645,6 @@ events:
       - "/Users/ericksens/Qt/6.12.0/macos/include/OpenGL.framework/Headers/glu.h"
       - "/Users/ericksens/Qt/6.12.0/macos/OpenGL.framework/Headers/glu.h"
       - "/Applications/CMake.app/Contents/bin/OpenGL.framework/Headers/glu.h"
-      - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/OpenGL.framework/Headers/glu.h"
       - "/Library/Frameworks/Python.framework/Versions/3.14/bin/OpenGL.framework/Headers/glu.h"
       - "/usr/local/bin/OpenGL.framework/Headers/glu.h"
       - "/System/Cryptexes/App/usr/bin/OpenGL.framework/Headers/glu.h"
@@ -2866,8 +2660,6 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/OpenGL.framework/Headers/glu.h"
       - "/usr/local/share/dotnet/OpenGL.framework/Headers/glu.h"
       - "/Users/ericksens/.dotnet/tools/OpenGL.framework/Headers/glu.h"
-      - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/OpenGL.framework/Headers/glu.h"
-      - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim/OpenGL.framework/Headers/glu.h"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/OpenGL.framework/Headers/glu.h"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/OpenGL.framework/Headers/glu.h"
       - "/opt/homebrew/include/OpenGL.framework/Headers/glu.h"
@@ -2899,7 +2691,6 @@ events:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -2915,10 +2706,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -3078,7 +2865,6 @@ events:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -3094,10 +2880,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -3244,7 +3026,6 @@ events:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -3260,10 +3041,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -3405,7 +3182,6 @@ events:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -3421,10 +3197,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -3558,7 +3330,6 @@ events:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -3574,10 +3345,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -5561,7 +5328,6 @@ events:
         - "/Users/ericksens/Qt/6.12.0/macos"
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -5577,10 +5343,6 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/ericksens/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
-        - "/Users/ericksens/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"

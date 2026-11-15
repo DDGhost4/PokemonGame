@@ -920,11 +920,14 @@ PokemonGame_autogen/timestamp: \
 	/Users/ericksens/Desktop/projectprog2/PokemonGame/PokemonGame1.cpp \
 	/Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/mainwindow.cpp \
 	/Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/mainwindow.h \
+	/Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/pokedexwindow.cpp \
+	/Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/pokedexwindow.h \
 	/Users/ericksens/Desktop/projectprog2/PokemonGame/Region.cpp \
 	/Users/ericksens/Desktop/projectprog2/PokemonGame/Region.h \
 	/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/4.5.0-rc3/CMakeCXXCompiler.cmake \
 	/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles/4.5.0-rc3/CMakeSystem.cmake \
 	/Users/ericksens/Desktop/projectprog2/PokemonGame/build/PokemonGame_autogen/moc_predefs.h \
+	/Users/ericksens/Qt/6.12.0/macos/include/QtWidgets/QDialog \
 	/Users/ericksens/Qt/6.12.0/macos/include/QtWidgets/QMainWindow \
 	/Users/ericksens/Qt/6.12.0/macos/lib/QtCore.framework/Versions/A/Headers/q17memory.h \
 	/Users/ericksens/Qt/6.12.0/macos/lib/QtCore.framework/Versions/A/Headers/q20bit.h \
@@ -1080,6 +1083,7 @@ PokemonGame_autogen/timestamp: \
 	/Users/ericksens/Qt/6.12.0/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
 	/Users/ericksens/Qt/6.12.0/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
 	/Users/ericksens/Qt/6.12.0/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+	/Users/ericksens/Qt/6.12.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
 	/Users/ericksens/Qt/6.12.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
 	/Users/ericksens/Qt/6.12.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
 	/Users/ericksens/Qt/6.12.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
@@ -1304,4 +1308,5 @@ PokemonGame_autogen/timestamp: \
 	/Users/ericksens/Qt/6.12.0/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargetsPrecheck.cmake \
 	/Users/ericksens/Qt/6.12.0/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
 	/Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/mainwindow.ui \
+	/Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/pokedexwindow.ui \
 	/Applications/CMake.app/Contents/bin/cmake

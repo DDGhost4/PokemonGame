@@ -437,6 +437,12 @@
 			null
 		],
 		[
+			"/Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/pokedexwindow.h",
+			"MU",
+			"QVZKZH5RLI/moc_pokedexwindow.cpp",
+			null
+		],
+		[
 			"/Users/ericksens/Desktop/projectprog2/PokemonGame/Region.h",
 			"MU",
 			"EWIEGA46WW/moc_Region.cpp",
@@ -525,6 +531,11 @@
 		],
 		[
 			"/Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/pokedexwindow.cpp",
 			"MU",
 			null
 		],

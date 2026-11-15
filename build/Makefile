@@ -310,6 +310,30 @@ QT_PokemonGame/mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PokemonGame.dir/build.make CMakeFiles/PokemonGame.dir/QT_PokemonGame/mainwindow.cpp.s
 .PHONY : QT_PokemonGame/mainwindow.cpp.s
 
+QT_PokemonGame/pokedexwindow.o: QT_PokemonGame/pokedexwindow.cpp.o
+.PHONY : QT_PokemonGame/pokedexwindow.o
+
+# target to build an object file
+QT_PokemonGame/pokedexwindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PokemonGame.dir/build.make CMakeFiles/PokemonGame.dir/QT_PokemonGame/pokedexwindow.cpp.o
+.PHONY : QT_PokemonGame/pokedexwindow.cpp.o
+
+QT_PokemonGame/pokedexwindow.i: QT_PokemonGame/pokedexwindow.cpp.i
+.PHONY : QT_PokemonGame/pokedexwindow.i
+
+# target to preprocess a source file
+QT_PokemonGame/pokedexwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PokemonGame.dir/build.make CMakeFiles/PokemonGame.dir/QT_PokemonGame/pokedexwindow.cpp.i
+.PHONY : QT_PokemonGame/pokedexwindow.cpp.i
+
+QT_PokemonGame/pokedexwindow.s: QT_PokemonGame/pokedexwindow.cpp.s
+.PHONY : QT_PokemonGame/pokedexwindow.s
+
+# target to generate assembly for a file
+QT_PokemonGame/pokedexwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PokemonGame.dir/build.make CMakeFiles/PokemonGame.dir/QT_PokemonGame/pokedexwindow.cpp.s
+.PHONY : QT_PokemonGame/pokedexwindow.cpp.s
+
 Region.o: Region.cpp.o
 .PHONY : Region.o
 
@@ -363,6 +387,9 @@ help:
 	@echo "... QT_PokemonGame/mainwindow.o"
 	@echo "... QT_PokemonGame/mainwindow.i"
 	@echo "... QT_PokemonGame/mainwindow.s"
+	@echo "... QT_PokemonGame/pokedexwindow.o"
+	@echo "... QT_PokemonGame/pokedexwindow.i"
+	@echo "... QT_PokemonGame/pokedexwindow.s"
 	@echo "... Region.o"
 	@echo "... Region.i"
 	@echo "... Region.s"

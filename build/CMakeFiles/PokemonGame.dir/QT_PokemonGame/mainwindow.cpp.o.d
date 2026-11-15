@@ -973,6 +973,9 @@ CMakeFiles/PokemonGame.dir/QT_PokemonGame/mainwindow.cpp.o: \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtGui.framework/Headers/qcursor.h \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtGui.framework/Headers/qbitmap.h \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
+  /Users/ericksens/Desktop/projectprog2/PokemonGame/Encounter.h \
+  /Users/ericksens/Desktop/projectprog2/PokemonGame/Pokedex.h \
+  /Users/ericksens/Desktop/projectprog2/PokemonGame/Pokemon.h \
   /Users/ericksens/Desktop/projectprog2/PokemonGame/Region.h \
   /Users/ericksens/Desktop/projectprog2/PokemonGame/build/PokemonGame_autogen/include/ui_mainwindow.h \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtCore.framework/Headers/QVariant \
@@ -1016,6 +1019,42 @@ CMakeFiles/PokemonGame.dir/QT_PokemonGame/mainwindow.cpp.o: \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtCore.framework/Headers/qiodevice.h \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtGui.framework/Headers/qtextdocument.h \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtCore.framework/Headers/qurl.h \
+  /Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/pokedexwindow.h \
   /Users/ericksens/Qt/6.12.0/macos/include/QtWidgets/QMessageBox \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
-  /Users/ericksens/Qt/6.12.0/macos/lib/QtWidgets.framework/Headers/qdialogbuttonbox.h
+  /Users/ericksens/Qt/6.12.0/macos/lib/QtWidgets.framework/Headers/qdialogbuttonbox.h \
+  /Users/ericksens/Qt/6.12.0/macos/include/QtCore/QFile \
+  /Users/ericksens/Qt/6.12.0/macos/lib/QtCore.framework/Headers/qfile.h \
+  /Users/ericksens/Qt/6.12.0/macos/lib/QtCore.framework/Headers/qfiledevice.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_char_like_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/deque.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/queue.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/deque \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h

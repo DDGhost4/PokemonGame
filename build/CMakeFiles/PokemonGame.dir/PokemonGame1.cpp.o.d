@@ -794,9 +794,9 @@ CMakeFiles/PokemonGame.dir/PokemonGame1.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
   /Users/ericksens/Desktop/projectprog2/PokemonGame/Encounter.h \
-  /Users/ericksens/Desktop/projectprog2/PokemonGame/Region.h \
-  /Users/ericksens/Desktop/projectprog2/PokemonGame/Pokemon.h \
   /Users/ericksens/Desktop/projectprog2/PokemonGame/Pokedex.h \
+  /Users/ericksens/Desktop/projectprog2/PokemonGame/Pokemon.h \
+  /Users/ericksens/Desktop/projectprog2/PokemonGame/Region.h \
   /Users/ericksens/Qt/6.12.0/macos/include/QtWidgets/QApplication \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtWidgets.framework/Headers/qapplication.h \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \

@@ -25,6 +25,7 @@ public:
     QWidget *centralwidget;
     QPushButton *Region_Button;
     QPushButton *Explore_Button;
+    QPushButton *Pokedex_Button;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -41,6 +42,9 @@ public:
         Explore_Button = new QPushButton(centralwidget);
         Explore_Button->setObjectName("Explore_Button");
         Explore_Button->setGeometry(QRect(270, 200, 101, 81));
+        Pokedex_Button = new QPushButton(centralwidget);
+        Pokedex_Button->setObjectName("Pokedex_Button");
+        Pokedex_Button->setGeometry(QRect(460, 200, 101, 81));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
@@ -60,6 +64,7 @@ public:
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         Region_Button->setText(QCoreApplication::translate("MainWindow", "Region", nullptr));
         Explore_Button->setText(QCoreApplication::translate("MainWindow", "Explore", nullptr));
+        Pokedex_Button->setText(QCoreApplication::translate("MainWindow", "Pokedex", nullptr));
     } // retranslateUi
 
 };

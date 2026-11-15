@@ -16,6 +16,9 @@ add_executable(PokemonGame
     QT_PokemonGame/mainwindow.cpp
     QT_PokemonGame/mainwindow.h
     QT_PokemonGame/mainwindow.ui
+    QT_PokemonGame/pokedexwindow.cpp
+    QT_PokemonGame/pokedexwindow.h
+    QT_PokemonGame/pokedexwindow.ui
     Pokemon.cpp
     Pokedex.cpp
     Encounter.cpp

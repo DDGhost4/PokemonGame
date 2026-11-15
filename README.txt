@@ -11,8 +11,11 @@ Exclude generated build folders, executables, and credentials.
 - No dependencies
 
 Build and Run:
+- Install QT
 - Clone: https://github.com/DDGhost4/PokemonGame.git
 - Open PokemonGame folder in VS Code
 - Open terminal and run:
-    - g++ pokemongame.cpp -o p
+    cmake --build build
+    ./build/PokemonGame
 
+IMPORTANT: persistence is used in pokedex_save.txt -> to delete save data delete everything under POKEDEX1 

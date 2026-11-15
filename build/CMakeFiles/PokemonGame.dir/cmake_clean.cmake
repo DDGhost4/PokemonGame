@@ -14,6 +14,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/PokemonGame.dir/PokemonGame_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/PokemonGame.dir/QT_PokemonGame/mainwindow.cpp.o"
   "CMakeFiles/PokemonGame.dir/QT_PokemonGame/mainwindow.cpp.o.d"
+  "CMakeFiles/PokemonGame.dir/QT_PokemonGame/pokedexwindow.cpp.o"
+  "CMakeFiles/PokemonGame.dir/QT_PokemonGame/pokedexwindow.cpp.o.d"
   "CMakeFiles/PokemonGame.dir/Region.cpp.o"
   "CMakeFiles/PokemonGame.dir/Region.cpp.o.d"
   "PokemonGame"

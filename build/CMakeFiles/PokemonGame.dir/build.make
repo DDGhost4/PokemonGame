@@ -124,10 +124,24 @@ CMakeFiles/PokemonGame.dir/QT_PokemonGame/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PokemonGame.dir/QT_PokemonGame/mainwindow.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/mainwindow.cpp -o CMakeFiles/PokemonGame.dir/QT_PokemonGame/mainwindow.cpp.s
 
+CMakeFiles/PokemonGame.dir/QT_PokemonGame/pokedexwindow.cpp.o: CMakeFiles/PokemonGame.dir/flags.make
+CMakeFiles/PokemonGame.dir/QT_PokemonGame/pokedexwindow.cpp.o: /Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/pokedexwindow.cpp
+CMakeFiles/PokemonGame.dir/QT_PokemonGame/pokedexwindow.cpp.o: CMakeFiles/PokemonGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PokemonGame.dir/QT_PokemonGame/pokedexwindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PokemonGame.dir/QT_PokemonGame/pokedexwindow.cpp.o -MF CMakeFiles/PokemonGame.dir/QT_PokemonGame/pokedexwindow.cpp.o.d -o CMakeFiles/PokemonGame.dir/QT_PokemonGame/pokedexwindow.cpp.o -c /Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/pokedexwindow.cpp
+
+CMakeFiles/PokemonGame.dir/QT_PokemonGame/pokedexwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PokemonGame.dir/QT_PokemonGame/pokedexwindow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/pokedexwindow.cpp > CMakeFiles/PokemonGame.dir/QT_PokemonGame/pokedexwindow.cpp.i
+
+CMakeFiles/PokemonGame.dir/QT_PokemonGame/pokedexwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PokemonGame.dir/QT_PokemonGame/pokedexwindow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/pokedexwindow.cpp -o CMakeFiles/PokemonGame.dir/QT_PokemonGame/pokedexwindow.cpp.s
+
 CMakeFiles/PokemonGame.dir/Pokemon.cpp.o: CMakeFiles/PokemonGame.dir/flags.make
 CMakeFiles/PokemonGame.dir/Pokemon.cpp.o: /Users/ericksens/Desktop/projectprog2/PokemonGame/Pokemon.cpp
 CMakeFiles/PokemonGame.dir/Pokemon.cpp.o: CMakeFiles/PokemonGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PokemonGame.dir/Pokemon.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PokemonGame.dir/Pokemon.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PokemonGame.dir/Pokemon.cpp.o -MF CMakeFiles/PokemonGame.dir/Pokemon.cpp.o.d -o CMakeFiles/PokemonGame.dir/Pokemon.cpp.o -c /Users/ericksens/Desktop/projectprog2/PokemonGame/Pokemon.cpp
 
 CMakeFiles/PokemonGame.dir/Pokemon.cpp.i: cmake_force
@@ -141,7 +155,7 @@ CMakeFiles/PokemonGame.dir/Pokemon.cpp.s: cmake_force
 CMakeFiles/PokemonGame.dir/Pokedex.cpp.o: CMakeFiles/PokemonGame.dir/flags.make
 CMakeFiles/PokemonGame.dir/Pokedex.cpp.o: /Users/ericksens/Desktop/projectprog2/PokemonGame/Pokedex.cpp
 CMakeFiles/PokemonGame.dir/Pokedex.cpp.o: CMakeFiles/PokemonGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PokemonGame.dir/Pokedex.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PokemonGame.dir/Pokedex.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PokemonGame.dir/Pokedex.cpp.o -MF CMakeFiles/PokemonGame.dir/Pokedex.cpp.o.d -o CMakeFiles/PokemonGame.dir/Pokedex.cpp.o -c /Users/ericksens/Desktop/projectprog2/PokemonGame/Pokedex.cpp
 
 CMakeFiles/PokemonGame.dir/Pokedex.cpp.i: cmake_force
@@ -155,7 +169,7 @@ CMakeFiles/PokemonGame.dir/Pokedex.cpp.s: cmake_force
 CMakeFiles/PokemonGame.dir/Encounter.cpp.o: CMakeFiles/PokemonGame.dir/flags.make
 CMakeFiles/PokemonGame.dir/Encounter.cpp.o: /Users/ericksens/Desktop/projectprog2/PokemonGame/Encounter.cpp
 CMakeFiles/PokemonGame.dir/Encounter.cpp.o: CMakeFiles/PokemonGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PokemonGame.dir/Encounter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PokemonGame.dir/Encounter.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PokemonGame.dir/Encounter.cpp.o -MF CMakeFiles/PokemonGame.dir/Encounter.cpp.o.d -o CMakeFiles/PokemonGame.dir/Encounter.cpp.o -c /Users/ericksens/Desktop/projectprog2/PokemonGame/Encounter.cpp
 
 CMakeFiles/PokemonGame.dir/Encounter.cpp.i: cmake_force
@@ -169,7 +183,7 @@ CMakeFiles/PokemonGame.dir/Encounter.cpp.s: cmake_force
 CMakeFiles/PokemonGame.dir/Region.cpp.o: CMakeFiles/PokemonGame.dir/flags.make
 CMakeFiles/PokemonGame.dir/Region.cpp.o: /Users/ericksens/Desktop/projectprog2/PokemonGame/Region.cpp
 CMakeFiles/PokemonGame.dir/Region.cpp.o: CMakeFiles/PokemonGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PokemonGame.dir/Region.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/PokemonGame.dir/Region.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PokemonGame.dir/Region.cpp.o -MF CMakeFiles/PokemonGame.dir/Region.cpp.o.d -o CMakeFiles/PokemonGame.dir/Region.cpp.o -c /Users/ericksens/Desktop/projectprog2/PokemonGame/Region.cpp
 
 CMakeFiles/PokemonGame.dir/Region.cpp.i: cmake_force
@@ -185,6 +199,7 @@ PokemonGame_OBJECTS = \
 "CMakeFiles/PokemonGame.dir/PokemonGame_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/PokemonGame.dir/PokemonGame1.cpp.o" \
 "CMakeFiles/PokemonGame.dir/QT_PokemonGame/mainwindow.cpp.o" \
+"CMakeFiles/PokemonGame.dir/QT_PokemonGame/pokedexwindow.cpp.o" \
 "CMakeFiles/PokemonGame.dir/Pokemon.cpp.o" \
 "CMakeFiles/PokemonGame.dir/Pokedex.cpp.o" \
 "CMakeFiles/PokemonGame.dir/Encounter.cpp.o" \
@@ -196,6 +211,7 @@ PokemonGame_EXTERNAL_OBJECTS =
 PokemonGame: CMakeFiles/PokemonGame.dir/PokemonGame_autogen/mocs_compilation.cpp.o
 PokemonGame: CMakeFiles/PokemonGame.dir/PokemonGame1.cpp.o
 PokemonGame: CMakeFiles/PokemonGame.dir/QT_PokemonGame/mainwindow.cpp.o
+PokemonGame: CMakeFiles/PokemonGame.dir/QT_PokemonGame/pokedexwindow.cpp.o
 PokemonGame: CMakeFiles/PokemonGame.dir/Pokemon.cpp.o
 PokemonGame: CMakeFiles/PokemonGame.dir/Pokedex.cpp.o
 PokemonGame: CMakeFiles/PokemonGame.dir/Encounter.cpp.o
@@ -205,7 +221,7 @@ PokemonGame: /Users/ericksens/Qt/6.12.0/macos/lib/QtWidgets.framework/Versions/A
 PokemonGame: /Users/ericksens/Qt/6.12.0/macos/lib/QtGui.framework/Versions/A/QtGui
 PokemonGame: /Users/ericksens/Qt/6.12.0/macos/lib/QtCore.framework/Versions/A/QtCore
 PokemonGame: CMakeFiles/PokemonGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable PokemonGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ericksens/Desktop/projectprog2/PokemonGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable PokemonGame"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PokemonGame.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

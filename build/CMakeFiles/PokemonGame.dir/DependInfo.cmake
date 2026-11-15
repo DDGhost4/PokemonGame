@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/ericksens/Desktop/projectprog2/PokemonGame/PokemonGame1.cpp" "CMakeFiles/PokemonGame.dir/PokemonGame1.cpp.o" "gcc" "CMakeFiles/PokemonGame.dir/PokemonGame1.cpp.o.d"
   "/Users/ericksens/Desktop/projectprog2/PokemonGame/build/PokemonGame_autogen/mocs_compilation.cpp" "CMakeFiles/PokemonGame.dir/PokemonGame_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/PokemonGame.dir/PokemonGame_autogen/mocs_compilation.cpp.o.d"
   "/Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/mainwindow.cpp" "CMakeFiles/PokemonGame.dir/QT_PokemonGame/mainwindow.cpp.o" "gcc" "CMakeFiles/PokemonGame.dir/QT_PokemonGame/mainwindow.cpp.o.d"
+  "/Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/pokedexwindow.cpp" "CMakeFiles/PokemonGame.dir/QT_PokemonGame/pokedexwindow.cpp.o" "gcc" "CMakeFiles/PokemonGame.dir/QT_PokemonGame/pokedexwindow.cpp.o.d"
   "/Users/ericksens/Desktop/projectprog2/PokemonGame/Region.cpp" "CMakeFiles/PokemonGame.dir/Region.cpp.o" "gcc" "CMakeFiles/PokemonGame.dir/Region.cpp.o.d"
   )
 

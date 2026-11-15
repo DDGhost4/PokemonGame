@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/PokemonGame_autogen"
   "PokemonGame_autogen/include/QT_PokemonGame/ui_mainwindow.h"
+  "PokemonGame_autogen/include/QT_PokemonGame/ui_pokedexwindow.h"
   "PokemonGame_autogen/mocs_compilation.cpp"
   "PokemonGame_autogen/timestamp"
 )

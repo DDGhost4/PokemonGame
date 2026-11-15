@@ -974,7 +974,14 @@ CMakeFiles/PokemonGame.dir/PokemonGame_autogen/mocs_compilation.cpp.o: \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtGui.framework/Headers/qcursor.h \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtGui.framework/Headers/qbitmap.h \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
+  /Users/ericksens/Desktop/projectprog2/PokemonGame/Encounter.h \
+  /Users/ericksens/Desktop/projectprog2/PokemonGame/Pokedex.h \
+  /Users/ericksens/Desktop/projectprog2/PokemonGame/Pokemon.h \
   /Users/ericksens/Desktop/projectprog2/PokemonGame/Region.h \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtCore.framework/Headers/qtmochelpers.h \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtCore.framework/Headers/qtmocconstants.h \
-  /Users/ericksens/Qt/6.12.0/macos/lib/QtCore.framework/Headers/q20algorithm.h
+  /Users/ericksens/Qt/6.12.0/macos/lib/QtCore.framework/Headers/q20algorithm.h \
+  /Users/ericksens/Desktop/projectprog2/PokemonGame/build/PokemonGame_autogen/QVZKZH5RLI/moc_pokedexwindow.cpp \
+  /Users/ericksens/Desktop/projectprog2/PokemonGame/build/PokemonGame_autogen/QVZKZH5RLI/../../../QT_PokemonGame/pokedexwindow.h \
+  /Users/ericksens/Qt/6.12.0/macos/include/QtWidgets/QDialog \
+  /Users/ericksens/Qt/6.12.0/macos/lib/QtWidgets.framework/Headers/qdialog.h

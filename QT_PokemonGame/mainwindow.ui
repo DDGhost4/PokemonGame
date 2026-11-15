@@ -40,6 +40,19 @@
      <string>Explore</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="Pokedex_Button">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>200</y>
+      <width>101</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pokedex</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

@@ -807,6 +807,9 @@
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
+  /Users/ericksens/Desktop/projectprog2/PokemonGame/Encounter.h \
+  /Users/ericksens/Desktop/projectprog2/PokemonGame/Pokedex.h \
+  /Users/ericksens/Desktop/projectprog2/PokemonGame/Pokemon.h \
   /Users/ericksens/Desktop/projectprog2/PokemonGame/Region.h \
   /Users/ericksens/Qt/6.12.0/macos/include/QtWidgets/QMainWindow \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtCore.framework/Versions/A/Headers/q17memory.h \

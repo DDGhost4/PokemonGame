@@ -924,11 +924,15 @@ PokemonGame_autogen/timestamp: /Applications/CMake.app/Contents/bin/cmake \
   /Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/mainwindow.cpp \
   /Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/mainwindow.h \
   /Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/mainwindow.ui \
+  /Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/pokedexwindow.cpp \
+  /Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/pokedexwindow.h \
+  /Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/pokedexwindow.ui \
   /Users/ericksens/Desktop/projectprog2/PokemonGame/Region.cpp \
   /Users/ericksens/Desktop/projectprog2/PokemonGame/Region.h \
   CMakeFiles/4.5.0-rc3/CMakeCXXCompiler.cmake \
   CMakeFiles/4.5.0-rc3/CMakeSystem.cmake \
   PokemonGame_autogen/moc_predefs.h \
+  /Users/ericksens/Qt/6.12.0/macos/include/QtWidgets/QDialog \
   /Users/ericksens/Qt/6.12.0/macos/include/QtWidgets/QMainWindow \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtCore.framework/Versions/A/Headers/q17memory.h \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtCore.framework/Versions/A/Headers/q20bit.h \
@@ -1084,6 +1088,7 @@ PokemonGame_autogen/timestamp: /Applications/CMake.app/Contents/bin/cmake \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /Users/ericksens/Qt/6.12.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
@@ -1719,6 +1724,8 @@ CMakeFiles/4.5.0-rc3/CMakeSystem.cmake:
 
 /Users/ericksens/Desktop/projectprog2/PokemonGame/Region.h:
 
+/Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/pokedexwindow.h:
+
 /Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/mainwindow.h:
 
 /Users/ericksens/Desktop/projectprog2/PokemonGame/Pokemon.h:
@@ -1844,6 +1851,8 @@ CMakeFiles/4.5.0-rc3/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_seek_set.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_rune_t.h:
+
+/Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/pokedexwindow.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_rsize_t.h:
 
@@ -2227,6 +2236,8 @@ PokemonGame_autogen/moc_predefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_pod.h:
 
+/Users/ericksens/Qt/6.12.0/macos/include/QtWidgets/QDialog:
+
 /Users/ericksens/Desktop/projectprog2/PokemonGame/Region.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__utility/declval.h:
@@ -2274,6 +2285,8 @@ CMakeFiles/4.5.0-rc3/CMakeCXXCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_constant_evaluated.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_core_convertible.h:
+
+/Users/ericksens/Qt/6.12.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_convertible.h:
 
@@ -3268,6 +3281,8 @@ CMakeFiles/4.5.0-rc3/CMakeCXXCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/max.h:
 
 /Users/ericksens/Qt/6.12.0/macos/lib/cmake/Qt6DBus/Qt6DBusVersionlessAliasTargets.cmake:
+
+/Users/ericksens/Desktop/projectprog2/PokemonGame/QT_PokemonGame/pokedexwindow.ui:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__compare/three_way_comparable.h:
 

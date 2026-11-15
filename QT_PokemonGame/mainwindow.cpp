@@ -1,7 +1,9 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "RegionDialog.h"
+#include "RegionDialog.h" //region button dialog
+#include "pokedexwindow.h"
 #include <QMessageBox>
+#include <QFile>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -9,6 +11,16 @@ MainWindow::MainWindow(QWidget *parent)
     , encounter(nullptr)
 {
     ui->setupUi(this);
+
+    //PERSISTENCE: load pokedex from file if it exists, if not we start with empty pokedex
+    if (QFile::exists("pokedex_save.txt")) {
+        if (!pokedex.load("pokedex_save.txt")) {
+            QMessageBox::warning(this, "Load failed",
+                                 "The save file is damaged. Starting with the current Pokedex.");
+        }
+    }
+
+
     ui->statusbar->showMessage("Choose a region to explore.");
 
     // A region cannot be changed while its wild Pokemon encounter is active.
@@ -34,6 +46,13 @@ MainWindow::MainWindow(QWidget *parent)
             ui->statusbar->showMessage("Selected Cave. Press Explore to look for Pokemon.");
         }
     });
+
+    // The Pokedex button opens a dialog showing the Pokemon that have been caught.
+    connect(ui->Pokedex_Button, &QPushButton::clicked, this, [this]() {
+        PokedexWindow dialog(pokedex, this);
+        dialog.exec();
+    });
+
 
     // Exploring starts an encounter, or reopens the current one after a failed catch.
     connect(ui->Explore_Button, &QPushButton::clicked, this, [this]() {
@@ -69,10 +88,17 @@ MainWindow::MainWindow(QWidget *parent)
         if (prompt.clickedButton() == catchButton) {
             switch (encounter.attemptCatch(pokedex)) {
             case CatchResult::Caught:
+                //persistence: saves pokedex to file after successful catch
+                if (!pokedex.save("pokedex_save.txt")) {
+                    QMessageBox::warning(this, "Save failed",
+                                         "Could not save your Pokedex.");
+                }
+                //button message and dialog message for successful catch
                 ui->statusbar->showMessage(QString("Caught %1!").arg(species));
                 QMessageBox::information(this, "Pokemon caught",
                                          QString("You caught %1!").arg(species));
                 break;
+                
             case CatchResult::Failed:
                 ui->statusbar->showMessage(QString("%1 broke free. The encounter is still active.").arg(species));
                 QMessageBox::information(this, "Pokemon escaped the Pokeball",

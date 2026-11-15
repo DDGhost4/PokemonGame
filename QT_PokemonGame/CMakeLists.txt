@@ -21,9 +21,12 @@ add_executable(PokemonGame
     Pokedex.cpp
     Encounter.cpp
     Region.cpp
+    QT_PokemonGame/pokedexwindow.cpp
+    QT_PokemonGame/pokedexwindow.h
+    QT_PokemonGame/pokedexwindow.ui
 )
 
-##include "mainwindow.h" work from PokemonGame1.cpp
+#include "mainwindow.h" work from PokemonGame1.cpp
 target_include_directories(PokemonGame PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}
     ${CMAKE_CURRENT_SOURCE_DIR}/QT_PokemonGame
