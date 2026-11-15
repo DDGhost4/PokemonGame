@@ -6,7 +6,7 @@
 #include <QVBoxLayout>
 #include <QLabel>
 
-// Small window with a button 1 and a button 2
+// Small text-only window for choosing an encounter region.
 class RegionDialog : public QDialog
 {
 public:
@@ -19,8 +19,8 @@ public:
         QVBoxLayout *layout = new QVBoxLayout(this);
         layout->addWidget(new QLabel("Choose a region:"));
 
-        QPushButton *button1 = new QPushButton("1");
-        QPushButton *button2 = new QPushButton("2");
+        QPushButton *button1 = new QPushButton("Forest");
+        QPushButton *button2 = new QPushButton("Cave");
         layout->addWidget(button1);
         layout->addWidget(button2);
 

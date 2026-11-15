@@ -2,6 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "Encounter.h"
+#include "Pokedex.h"
 #include "Region.h"
 
 QT_BEGIN_NAMESPACE
@@ -23,6 +25,8 @@ private:
 
     Forest forest;
     Cave cave;
+    Pokedex pokedex;
+    Encounter encounter;
 
     Region* selectedRegion = nullptr;
 };
