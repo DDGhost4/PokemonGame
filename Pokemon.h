@@ -5,7 +5,6 @@
 class Pokemon {
     std::string name;
 public:
-    Pokemon(std::string n = "");
-    std::string getName() const;
+    Pokemon(std::string n = ""); //constructor with default name
+    std::string getName() const; //getter for name
 };
- 

@@ -1,10 +1,10 @@
 #include "Encounter.h"
 
-#include <random>
+#include <random> //for random number generation
 
-namespace {
+//chance of catching pokemon is 60%, change if needed. currently no dynamic catch chance 
 constexpr int kCatchChancePercent = 60;
-}
+
 
 Encounter::Encounter(Region* region)
     : region(region)
@@ -60,15 +60,17 @@ CatchResult Encounter::attemptCatch(Pokedex& pokedex)
         return CatchResult::Caught;
     }
 
+
     return CatchResult::Failed;
 }
 
+//flee encounter (does not return true if there is no active encounter)
 bool Encounter::flee() noexcept
 {
     if (!isActive()) {
         return false;
     }
 
-    wildPokemon.reset();
+    wildPokemon.reset(); //clear wildPokemon to end encounter
     return true;
 }

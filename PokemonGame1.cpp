@@ -5,28 +5,13 @@
 #include <QApplication>
 #include "mainwindow.h"
 
-int main(int argc, char *argv[])
+
+int main(int argc, char *argv[]) //qt entrypoint
 {
     QApplication app(argc, argv);
 
-    MainWindow window;
-    window.show();
+    MainWindow window;  //create main window
+    window.show();      //show main window
 
     return app.exec();
 }
-
-/* currently hiding:
-
-
-int main() {
-    Forest forest;
-    Cave cave;
-    Pokedex dex;
-    Encounter enc(&forest);
- 
-    enc.run(30, dex);          // Forest encounter
-    enc.setRegion(&cave);
-    enc.run(30, dex);          // Cave encounter
- 
-    dex.display();
-}*/

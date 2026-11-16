@@ -4,19 +4,21 @@
 #include <fstream>
 #include <cctype>
 
+//
 void Pokedex::add(const Pokemon& p) { caught.push_back(p); }
 
 void Pokedex::display() const {
     for (const auto& p : caught) std::cout << "Caught: " << p.getName() << "\n";
 }
 
+//persistence: 
 bool Pokedex::save(const std::string& filename) const {
     std::ofstream out(filename);
     if (!out) return false;
 
-    out << "POKEDEX1\n";               // header so we can recognize our own file
+    out << "POKEDEX1\n";               //header so we can recognize our own file
     for (const auto& p : caught) {
-        out << p.getName() << "\n";    // one name per line
+        out << p.getName() << "\n";    //one name per line
     }
     return out.good();
 }
