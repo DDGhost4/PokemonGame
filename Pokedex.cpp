@@ -1,4 +1,3 @@
-//Pokedex.cpp
 #include "Pokedex.h"
 #include <iostream>
 #include <fstream>
@@ -29,20 +28,20 @@ bool Pokedex::load(const std::string& filename) {
 
     std::string line;
     if (!std::getline(in, line) || line != "POKEDEX1") {
-        return false;                  // wrong or missing header
+        return false;                  //wrong or missing header
     }
 
-    std::vector<Pokemon> temp;         // read into a temporary list first
+    std::vector<Pokemon> temp;         //read into a temp list first
     while (std::getline(in, line)) {
         if (line.empty() || line.size() > 30) return false;
         for (char c : line) {
             if (!std::isalpha(static_cast<unsigned char>(c)) && c != ' ' && c != '-') {
-                return false;          // bad character: file is malformed
+                return false;          //bad character: file is malformed
             }
         }
         temp.push_back(Pokemon(line));
     }
 
-    caught = temp;                     // only now do we replace the real data
+    caught = temp;                     //replace real data with the temporary list if everything was successful
     return true;
 }

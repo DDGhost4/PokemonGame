@@ -48,10 +48,7 @@ const Pokemon* Encounter::getWildPokemon() const
 }
 
 
-const Region* Encounter::getRegion() const
-{
-    return region;
-}
+const Region* Encounter::getRegion() const { return region; }
 
 CatchResult Encounter::attemptCatch(Pokedex& pokedex)
 {
