@@ -1,47 +1,54 @@
 #include "Encounter.h"
-
 #include <random> //for random number generation
 
 //chance of catching pokemon is 60%, change if needed. currently no dynamic catch chance 
 constexpr int kCatchChancePercent = 60;
 
 
-Encounter::Encounter(Region* region)
-    : region(region)
-{
-}
+//constructor: stores region pointer
+Encounter::Encounter(Region* r) : region(r) {}
 
-bool Encounter::setRegion(Region* region) noexcept
+
+//changes region. only works if there is no active encounter
+bool Encounter::setRegion(Region* r) 
 {
-    if (isActive()) {
-        return false;
+    if (isActive()) { 
+        return false;       //active = no change allowed
     }
 
-    this->region = region;
-    return true;
+    region = r;             //otherwise, change region to new region pointer
+    return true;            
 }
 
+
+//picks a random pokemon from region's encounter table and starts encounter
 bool Encounter::start()
 {
-    if (region == nullptr || isActive()) {
+    if (region == nullptr || isActive()) { //if no region is selected or encounter is already active ==> return false
         return false;
     }
 
-    wildPokemon.emplace(region->selectRandomPokemon());
+    wildPokemon = Pokemon((*region).selectRandomPokemon()); //otherwise, select a random pokemon from the region's encounter table and start encounter
     return true;
 }
 
-bool Encounter::isActive() const noexcept
+//determines if encounter is active (if wildPokemon has a value)
+bool Encounter::isActive() const
 {
     return wildPokemon.has_value();
 }
 
-const Pokemon* Encounter::getWildPokemon() const noexcept
+//
+const Pokemon* Encounter::getWildPokemon() const
 {
-    return wildPokemon ? &*wildPokemon : nullptr;
+    if (isActive()) {
+        return &wildPokemon.value(); //return pointer to wildPokemon if encounter is active
+    }
+    return nullptr;
 }
 
-const Region* Encounter::getRegion() const noexcept
+
+const Region* Encounter::getRegion() const
 {
     return region;
 }
@@ -65,7 +72,7 @@ CatchResult Encounter::attemptCatch(Pokedex& pokedex)
 }
 
 //flee encounter (does not return true if there is no active encounter)
-bool Encounter::flee() noexcept
+bool Encounter::flee()
 {
     if (!isActive()) {
         return false;

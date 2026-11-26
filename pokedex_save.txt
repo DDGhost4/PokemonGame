@@ -1,3 +1,5 @@
 POKEDEX1
 Exeggcute
 Scyther
+Tangela
+Oddish

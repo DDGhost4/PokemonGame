@@ -14,18 +14,19 @@ enum class CatchResult {
 
 class Encounter {
 public:
-    explicit Encounter(Region* region = nullptr);
+    explicit Encounter(Region* r = nullptr);
 
     // The region cannot be changed while a wild Pokemon is active.
-    bool setRegion(Region* region) noexcept;
+    bool setRegion(Region* r);
     bool start();
-    bool isActive() const noexcept;
-    const Pokemon* getWildPokemon() const noexcept;
-    const Region* getRegion() const noexcept;
+    bool isActive() const;
+    const Pokemon* getWildPokemon() const;
+    const Region* getRegion() const;
+
 
     // A successful catch is the only way the Pokemon enters the Pokedex.
     CatchResult attemptCatch(Pokedex& pokedex);
-    bool flee() noexcept;
+    bool flee();
 
 private:
     Region* region; // non-owning; the selected region outlives the encounter
