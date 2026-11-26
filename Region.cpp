@@ -1,5 +1,4 @@
 #include "Region.h"
-#include <random>           //std::mt19937, std::random_device, std::uniform_int_distribution
 #include <stdexcept>        //std::invalid_argument, std::out_of_range, std::logic_error
 #include <unordered_set>    //std::unordered_set (checks for duplicate species in encounter table)
 #include <utility>          //std::move
@@ -43,9 +42,8 @@ const std::string& Region::getName() const {return name;}
 const std::vector<std::string>& Region::getAvailablePokemon() const {return availablePokemon;}
 
 std::string Region::selectRandomPokemon() const {
-    static std::mt19937 generator(std::random_device{}());
-    static std::uniform_int_distribution<int> distribution(0, kRollCount - 1);
-    return rollSpecies(distribution(generator));
+    int roll = randomInRange<int>(0, kRollCount - 1);
+    return rollSpecies(roll);
 }
 
 std::string Region::speciesForRoll(int roll) const
@@ -107,5 +105,11 @@ Cave::Cave()
 {
 }
 
+//cave is different from forest: a low roll gets one reroll,
+//so rare pokemon (the end of the table) show up more often in caves
 std::string Cave::rollSpecies(int roll) const {
-    return speciesForRoll(roll);}
+    if (roll < 50) {
+        roll = randomInRange<int>(0, kRollCount - 1);
+    }
+    return speciesForRoll(roll);
+}

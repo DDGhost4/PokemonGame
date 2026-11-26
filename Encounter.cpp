@@ -1,8 +1,8 @@
 #include "Encounter.h"
-#include <random> //for random number generation
+#include <stdexcept>
 
 //chance of catching pokemon is 60%, change if needed. currently no dynamic catch chance 
-constexpr int kCatchChancePercent = 60;
+const int kCatchChancePercent = 60;
 
 
 //constructor: stores region pointer
@@ -22,13 +22,17 @@ bool Encounter::setRegion(Region* r)
 
 
 //picks a random pokemon from region's encounter table and starts encounter
+//throws logic_error if the operation is invalid (no region selected or encounter already active)
 bool Encounter::start()
 {
-    if (region == nullptr || isActive()) { //if no region is selected or encounter is already active ==> return false
-        return false;
+    if (region == nullptr) {
+        throw std::logic_error("Choose a region before exploring.");
+    }
+    if (isActive()) {
+        throw std::logic_error("An encounter is already active.");
     }
 
-    wildPokemon = Pokemon((*region).selectRandomPokemon()); //otherwise, select a random pokemon from the region's encounter table and start encounter
+    wildPokemon = Pokemon((*region).selectRandomPokemon());
     return true;
 }
 
@@ -56,14 +60,12 @@ CatchResult Encounter::attemptCatch(Pokedex& pokedex)
         return CatchResult::NoActiveEncounter;
     }
 
-    static std::mt19937 generator(std::random_device{}());
-    static std::uniform_int_distribution<int> distribution(1, 100);
-    if (distribution(generator) <= kCatchChancePercent) {
+    long roll = randomInRange<long>(0, 99);   //roll is 0 to 99
+    if (roll < kCatchChancePercent) {         //0-59 = caught (60% chance)
         pokedex.add(*wildPokemon);
         wildPokemon.reset();
         return CatchResult::Caught;
     }
-
 
     return CatchResult::Failed;
 }

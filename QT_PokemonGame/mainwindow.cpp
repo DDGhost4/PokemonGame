@@ -4,6 +4,7 @@
 #include "pokedexwindow.h"
 #include <QMessageBox>
 #include <QFile>
+#include <stdexcept>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -14,9 +15,12 @@ MainWindow::MainWindow(QWidget *parent)
 
     //PERSISTENCE: load pokedex from file if it exists, if not we start with empty pokedex
     if (QFile::exists("pokedex_save.txt")) {
-        if (!pokedex.load("pokedex_save.txt")) {
+        try {
+            pokedex.load("pokedex_save.txt");
+        }
+        catch (const std::exception& e) {
             QMessageBox::warning(this, "Load failed",
-                                 "The save file is damaged. Starting with the current Pokedex.");
+                                 QString("%1\nStarting with an empty Pokedex.").arg(e.what()));
         }
     }
 
@@ -56,15 +60,13 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Exploring starts an encounter, or reopens the current one after a failed catch.
     connect(ui->Explore_Button, &QPushButton::clicked, this, [this]() {
-        if (selectedRegion == nullptr) {
-            QMessageBox::warning(this, "Explore failure message",
-                                 "Choose a region before exploring.");
-            return;
+        try {
+            if (!encounter.isActive()) {
+                encounter.start();   //throws logic_error if no region is selected
+            }
         }
-
-        if (!encounter.isActive() && !encounter.start()) {
-            QMessageBox::warning(this, "Explore failure message",
-                                 "A Pokemon encounter could not be started.");
+        catch (const std::logic_error& e) {
+            QMessageBox::warning(this, "Explore failure message", e.what());
             return;
         }
 

@@ -8,7 +8,7 @@ Exclude generated build folders, executables, and credentials.
 - Editor: VS Code
 - C++17
 - OS: Windows 11 & MacOS 14
-- No dependencies
+- Dependencies: QT 6 required
 
 Build and Run:
 - Install QT

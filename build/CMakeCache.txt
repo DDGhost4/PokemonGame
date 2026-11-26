@@ -173,7 +173,7 @@ CMAKE_OSX_SYSROOT:STRING=
 // find_package(), find_program(), find_library(), find_file(),
 // and find_path(). Empty by default; intended to be set by the
 // project or the user.
-CMAKE_PREFIX_PATH:UNINITIALIZED=/Users/ericksens/Qt/6.12.0/macos
+CMAKE_PREFIX_PATH:UNINITIALIZED=~/Qt/6.12.0/macos
 
 //Value Computed by CMake
 CMAKE_PROJECT_COMPAT_VERSION:STATIC=

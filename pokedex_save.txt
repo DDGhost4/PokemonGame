@@ -1,1 +1,3 @@
 POKEDEX1
+Bellsprout
+Diglett

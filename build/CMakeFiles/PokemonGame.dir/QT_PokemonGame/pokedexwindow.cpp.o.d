@@ -974,6 +974,19 @@ CMakeFiles/PokemonGame.dir/QT_PokemonGame/pokedexwindow.cpp.o: \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtGui.framework/Headers/qbitmap.h \
   /Users/ericksens/Desktop/projectprog2/PokemonGame/Pokedex.h \
   /Users/ericksens/Desktop/projectprog2/PokemonGame/Pokemon.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_char_like_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/deque.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/queue.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/deque \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
   /Users/ericksens/Desktop/projectprog2/PokemonGame/build/PokemonGame_autogen/include/ui_pokedexwindow.h \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtCore.framework/Headers/QVariant \
   /Users/ericksens/Qt/6.12.0/macos/lib/QtWidgets.framework/Headers/QApplication \
