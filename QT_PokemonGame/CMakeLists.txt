@@ -5,7 +5,7 @@ project(PokemonGame LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Qt code generators (needed for Q_OBJECT and the .ui file)
+#Qt code generators (needed for Q_OBJECT and the .ui file)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
@@ -26,7 +26,7 @@ add_executable(PokemonGame
     QT_PokemonGame/pokedexwindow.ui
 )
 
-#include "mainwindow.h" work from PokemonGame1.cpp
+#include "mainwindow.h" work from PokemonGame1.cpp 
 target_include_directories(PokemonGame PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}
     ${CMAKE_CURRENT_SOURCE_DIR}/QT_PokemonGame

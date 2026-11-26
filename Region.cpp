@@ -1,36 +1,32 @@
 #include "Region.h"
+#include <random>           //std::mt19937, std::random_device, std::uniform_int_distribution
+#include <stdexcept>        //std::invalid_argument, std::out_of_range, std::logic_error
+#include <unordered_set>    //std::unordered_set (checks for duplicate species in encounter table)
+#include <utility>          //std::move
 
-#include <random>
-#include <stdexcept>
-#include <unordered_set>
-#include <utility>
 
-namespace {
-constexpr int kRollCount = 100;
-}
+const int kRollCount = 100; //rolls are 0-99
 
-Region::Region(std::string name, std::vector<EncounterEntry> encounterTable)
-    : name(std::move(name)), encounterTable(std::move(encounterTable))
-{
-    if (this->name.empty()) {
-        throw std::invalid_argument("A region must have a name.");
+Region::Region(std::string n, std::vector<EncounterEntry> table) : name(std::move(n)), encounterTable(std::move(table)) {
+    if (name.empty()) {
+        throw std::invalid_argument("region must have a name");
     }
-    if (this->encounterTable.empty()) {
-        throw std::invalid_argument("A region must have at least one encounter entry.");
+    if (encounterTable.empty()) {
+        throw std::invalid_argument("region must have at least one encounter entry");
     }
 
     int totalWeight = 0;
     std::unordered_set<std::string> seenSpecies;
-    availablePokemon.reserve(this->encounterTable.size());
-    for (const EncounterEntry& entry : this->encounterTable) {
+    availablePokemon.reserve(encounterTable.size());
+    for (const EncounterEntry& entry : encounterTable) {
         if (entry.species.empty()) {
-            throw std::invalid_argument("A region cannot contain an empty Pokemon species name.");
+            throw std::invalid_argument("region cannot contain an empty pokemon species name");
         }
         if (entry.weight <= 0) {
-            throw std::invalid_argument("Pokemon encounter weights must be positive.");
+            throw std::invalid_argument("pokemon encounter weights must be positive");
         }
         if (!seenSpecies.insert(entry.species).second) {
-            throw std::invalid_argument("A Pokemon species can appear only once in a region encounter table.");
+            throw std::invalid_argument("pokemon species can appear only once in a region encounter table");
         }
 
         totalWeight += entry.weight;
@@ -38,22 +34,15 @@ Region::Region(std::string name, std::vector<EncounterEntry> encounterTable)
     }
 
     if (totalWeight != kRollCount) {
-        throw std::invalid_argument("Region encounter weights must add up to 100.");
+        throw std::invalid_argument("region encounter weights must add up to 100");
     }
 }
 
-const std::string& Region::getName() const noexcept
-{
-    return name;
-}
+const std::string& Region::getName() const {return name;}
 
-const std::vector<std::string>& Region::getAvailablePokemon() const noexcept
-{
-    return availablePokemon;
-}
+const std::vector<std::string>& Region::getAvailablePokemon() const {return availablePokemon;}
 
-std::string Region::selectRandomPokemon() const
-{
+std::string Region::selectRandomPokemon() const {
     static std::mt19937 generator(std::random_device{}());
     static std::uniform_int_distribution<int> distribution(0, kRollCount - 1);
     return rollSpecies(distribution(generator));
@@ -62,7 +51,7 @@ std::string Region::selectRandomPokemon() const
 std::string Region::speciesForRoll(int roll) const
 {
     if (roll < 0 || roll >= kRollCount) {
-        throw std::out_of_range("A region encounter roll must be between 0 and 99.");
+        throw std::out_of_range("region encounter roll must be between 0 and 99");
     }
 
     int cumulativeWeight = 0;
@@ -73,10 +62,11 @@ std::string Region::speciesForRoll(int roll) const
         }
     }
 
-    // The constructor enforces a total weight of 100, so this is unreachable.
+    //constructor enforces a total weight of 100, so this is unreachable
     throw std::logic_error("The region encounter table is invalid.");
 }
 
+//forest data
 Forest::Forest()
     : Region("Forest", {
           {"Pidgey", 16},
@@ -93,15 +83,13 @@ Forest::Forest()
           {"Pinsir", 2},
           {"Tangela", 3}
       })
-{
+{ 
 }
 
-std::string Forest::rollSpecies(int roll) const
-{
-    return speciesForRoll(roll);
-}
+std::string Forest::rollSpecies(int roll) const {
+    return speciesForRoll(roll);}
 
-Cave::Cave()
+Cave::Cave() 
     : Region("Cave", {
           {"Zubat", 20},
           {"Geodude", 18},
@@ -119,7 +107,5 @@ Cave::Cave()
 {
 }
 
-std::string Cave::rollSpecies(int roll) const
-{
-    return speciesForRoll(roll);
-}
+std::string Cave::rollSpecies(int roll) const {
+    return speciesForRoll(roll);}

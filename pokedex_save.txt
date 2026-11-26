@@ -1,4 +1,3 @@
 POKEDEX1
-Weedle
-Weedle
-Pidgey
+Exeggcute
+Scyther

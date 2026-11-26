@@ -1,18 +1,17 @@
 #pragma once
-
 #include <string>
 #include <vector>
 
-// A region owns its encounter table and the species available there.
+//region owns its encounter table and the species available there
 class Region {
 public:
     virtual ~Region() = default;
 
-    const std::string& getName() const noexcept;
-    const std::vector<std::string>& getAvailablePokemon() const noexcept;
+    const std::string& getName() const;
+    const std::vector<std::string>& getAvailablePokemon() const;
     std::string selectRandomPokemon() const;
 
-    // Deterministic entry point for a roll from 0 through 99.
+    //entry point for a roll from 0 through 99.
     virtual std::string rollSpecies(int roll) const = 0;
 
 protected:
@@ -21,7 +20,7 @@ protected:
         int weight;
     };
 
-    Region(std::string name, std::vector<EncounterEntry> encounterTable);
+    Region(std::string n, std::vector<EncounterEntry> table);
     std::string speciesForRoll(int roll) const;
 
 private:
